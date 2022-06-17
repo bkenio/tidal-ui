@@ -1,0 +1,49 @@
+{
+  "name": "tidal-ui",
+  "version": "0.0.0",
+  "main": "index.js",
+  "repository": "git@github.com:bkenio/tidal-ui",
+  "author": "rustyguts <9222118+rustyguts@users.noreply.github.com>",
+  "license": "UNLICENSED",
+  "private": false,
+  "scripts": {
+    "test": "jest",
+    "dev": "parcel public/index.html",
+    "build": "parcel build public/index.html"
+  },
+  "dependencies": {
+    "@chakra-ui/react": "^2.2.1",
+    "@emotion/react": "^11.9.3",
+    "@emotion/styled": "^11.9.3",
+    "@fontsource/fira-sans": "^4.5.8",
+    "axios": "^0.27.2",
+    "framer-motion": "^6.3.11",
+    "luxon": "^2.4.0",
+    "mime-types": "^2.1.35",
+    "object-hash": "^3.0.0",
+    "react": "^18.2.0",
+    "react-dom": "^18.2.0",
+    "react-icons": "^4.4.0",
+    "react-router-dom": "^6.3.0",
+    "swr": "^1.3.0"
+  },
+  "devDependencies": {
+    "@types/luxon": "^2.3.2",
+    "@types/node": "^18.0.0",
+    "@types/react": "^18.0.12",
+    "@types/react-dom": "^18.0.5",
+    "@typescript-eslint/eslint-plugin": "^5.28.0",
+    "@typescript-eslint/parser": "^5.28.0",
+    "eslint": "^8.17.0",
+    "eslint-config-prettier": "^8.5.0",
+    "eslint-plugin-import": "^2.26.0",
+    "eslint-plugin-prettier": "^4.0.0",
+    "jest": "^28.1.1",
+    "nodemon": "^2.0.16",
+    "parcel": "^2.6.0",
+    "prettier": "^2.7.0",
+    "ts-jest": "^28.0.5",
+    "ts-node": "^10.8.1",
+    "typescript": "^4.7.3"
+  }
+}
